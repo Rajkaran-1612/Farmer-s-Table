@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Farmer's Table | Clone Website</title>
+    <title>Farmer's Table | Website</title>
 
     <!-- Custom Style   -->
     <link rel="stylesheet" href="style.css">
@@ -337,19 +337,30 @@
     </div>
 
     <!-- Form -->
-    <form>
-        <form class="form-email" action="mailto:contact@yourdomain.com" method="POST" enctype="multipart/form-data"
-            name="EmailForm"><br>
-
-            Name: <br><input type="text" size="19" name="Contact-Name"><br><br>
-            Email:<br>
-            <input type="email" name="Contact-Email"><br><br>
-            Message:<br>
-            <textarea name="Contact-Message" rows="6″ cols=" 20″="">            </textarea><br><br>
-            <button class="button-send" type="submit" value="Submit">Send</button>
-
+    <div id="suggestion-form"><b>Suggestion Box</b></div>
+    <img class="img_line" src="./assets/Line.png">
+    <div class="suggestion">
+        <h2>Suggestion</h2>
+        <form method="post">
+            <div class="txt_field">
+                <input type="text" required>
+                <span></span>
+                <label>Name</label>
+            </div>
+            <div class="txt_field">
+                <input type="email" required>
+                <span></span>
+                <label>Email</label>
+            </div>
+            <div class="txt_area">
+                <Label>Message</Label>
+                <textarea cols="46" rows="8"></textarea>
+            </div>
+            <input type="submit" value="Send">
         </form>
+    </div>
 
+        <!-- Google Maps Integration -->
         <div id="location"><b>Location</b></div>
         <img class="img_line" src="./assets/Line.png">
         <div class="location">
@@ -359,6 +370,8 @@
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
+
+        <!-- Footer -->
         <footer class="bar" id="footer">
             <section>
                 <div class="container_footer">
