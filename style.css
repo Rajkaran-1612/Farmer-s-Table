@@ -171,6 +171,7 @@ b {
     padding: 10px;
     font-size: larger;
     transition: 1s;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px gray;
 }
 
 .categories-cards:hover {
@@ -301,6 +302,7 @@ a:hover {
     margin-top: 20px;
     margin-bottom: 80px;
     transition: 1s;
+    box-shadow: 4px 4px 4px 4px gray;
 }
 
 .product-cards:hover {
@@ -366,6 +368,7 @@ a:hover {
     width: 400px;
     background: #a24f4e;
     border-radius: 10px;
+    box-shadow: 6px 6px 6px 6px gray;
 }
 
 .suggestion h2 {
@@ -468,6 +471,7 @@ input[type="submit"]:hover {
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
+    box-shadow: 4px 4px 4px 4px gray;
 }
 
 #footer {
