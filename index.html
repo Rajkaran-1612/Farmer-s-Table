@@ -9,6 +9,16 @@
     <!-- Custom Style   -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
@@ -20,6 +30,7 @@
         <div class="navbar">
             <img class="img_logo" src=".\assets\Farmer's_Table_logo.png">
             <h3>Farmer's Table</h3>
+            <div class="bx bx-menu" id="menu-icon"></div>
             <div class="list-header">
                 <ul class="list-non-bullet">
                     <li class="list-item-inline"><a class="link" href="#">Home</a></li>
@@ -33,31 +44,63 @@
 
     <!-- Site Title -->
 
-    <div class="site_title">
-        <img class="site_title-img" src=".\assets\Farmer's_Table_logo.png">
-        <div id="site_title-caption" style="white-space: pre-wrap;"><b>From our farms, <br> To your Table</b></div>
+    <div class="owl-carousel owl-theme">
+        <div class="slide slide-1">
+            <div class="slide-content">
+                <img src="assets/main_banner.PNG" alt="">
+            </div>
+        </div>
+        <div class="slide slide-2">
+            <div class="slide-content">
+                <img src="assets/main_banner.PNG" alt="">
+            </div>
+        </div>
+        <div class="slide slide-3">
+            <div class="slide-content">
+                <img src="assets/main_banner.PNG" alt="">
+            </div>
+        </div>
     </div>
 
     <!-- Site Content -->
 
     <!-- About Us Page -->
 
+    <div class="social_float">
+        <div class="whatsapp_float">
+            <a href="https://wa.me/918692961939" target="_blank"><img src="assets/whatsapp_float.png" width="50px" class="whatsapp_float_btn"></a>
+        </div>
+        <div class="call_float">
+            <a href="tel:+91 8692961939"><img src="assets/Call-Button.png" width="40px" class="call_float_btn"></a>
+        </div>
+    </div>
+
     <div class="banner">
         <div id="about-content">
             <div id="about">About Us</div>
-            <div id="about-text">Farmer's Table is a startup. We
-                specialize in Natural to organic
-                farming and producing naturally
-                made food products like
-                home-made pickles, natural
-                regional masalas, organic honey,
-                and more.
-                We cater to clients who are health
-                and environmentally conscious and
-                want to expand by providing
-                to more clients who may or may not
-                be well versed with organic foods
-                and sustainable living.
+            <div id="about-text">Farmer’s Table came about due to the
+                realization that the food on the table
+                was not always of good quality and
+                original traditional flavors. Hence,
+                Farmer’s Table was born. We realized
+                that along with farmer's table owned
+                farms there are a lot of other small &
+                marginal farmers who practice natural
+                and organic farming. <br><br>
+                Farmer’s Table ensures that these
+                quality products from our farms and
+                other such small farmers, reaches your
+                table curated and checked for quality,
+                texture and flavor. <br>
+                 So, you always get quality ingredients
+                and agro - products. <br><br>
+                We are also ensuring revival of certain
+                traditional home made recipes and
+                products like pickles, sun dried chilly,
+                etc, which are not easily available in
+                quality, so that these niche traditional
+                flavors can reach your table and your
+                palate.
             </div>
         </div>
     </div>
@@ -68,32 +111,25 @@
     <img class="img_line" src="./assets/Line.png">
     <div class="container">
         <div class="categories-cards">
-            <div id="category-title"><b>Seasonal Fruits</b></div>
-            <button class="button-click button1"><a href="#seasonalfruits">Click here</a></button>
+            <button class="button-click"><a href="#seasonalfruits">Seasonal Fruits</a></button>
         </div>
         <div class="categories-cards">
-            <div id="category-title"><b>Food Enhancements</b></div>
-            <button class="button-click button2"><a href="#foodenhancements">Click here</a></button>
+            <button class="button-click"><a href="#foodenhancements">Food Ennhancements</a></button>
         </div>
         <div class="categories-cards">
-            <div id="category-title"><b>Spices</b></div>
-            <button class="button-click button3"><a href="#spices">Click here</a></button>
+            <button class="button-click"><a href="#spices">Spices</a></button>
         </div>
         <div class="categories-cards">
-            <div id="category-title"><b>Coffee</b></div>
-            <button class="button-click button4"><a href="#coffee">Click here</a></button>
+            <button class="button-click"><a href="#coffee">Coffee</a></button>
         </div>
         <div class="categories-cards">
-            <div id="category-title"><b>Coffee Makers</b></div>
-            <button class="button-click button5"><a href="#coffeemakers">Click here</a></button>
+            <button class="button-click"><a href="#coffeemakers">Coffee Makers</a></button>
         </div>
         <div class="categories-cards">
-            <div id="category-title"><b>Jeera</b></div>
-            <button class="button-click button6"><a href="#jeera">Click here</a></button>
+            <button class="button-click"><a href="#jeera">Jeera</a></button>
         </div>
         <div class="categories-cards">
-            <div id="category-title"><b>Honey</b></div>
-            <button class="button-click button7"><a href="#honey">Click here</a></button>
+            <button class="button-click"><a href="#honey">Honey</a></button>
         </div>
     </div>
 
@@ -108,7 +144,20 @@
             <div id="product-price"><b>₹500</b></div>
             <div id="utility_buttons">
                 <button class="button">Buy Now</button>
-                <button class="button">Give Details</button>
+                <div class="popup">
+                    <input type="checkbox" id="click">
+                    <label for="click" class="click-me">Give Details</label>
+                    <div class="popup-content">
+                        <div class="popup-header">
+                            <h2>Farm Fresh Strawberry</h2>
+                            <label for="click" class="fa fa-times fa-lg"></label>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates veritatis quisquam rem natus ea similique dolorum laborum, harum quo sit praesentium impedit ipsam eum! Ipsam modi ratione error laboriosam velit.</p>
+                        <div class="line">
+                            <label for="click" class="close-btn">Close</label>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="product-cards">
@@ -116,9 +165,22 @@
             <div id="product-title"><b>Farm Fresh Gooseberry</b></div>
             <div id="product-quantity">250 gms</div>
             <div id="product-price"><b>₹500</b></div>
-            <div id="utility_buttons">
+            <div id="utility_buttons_2">
                 <button class="button">Buy Now</button>
-                <button class="button">Give Details</button>
+                <div class="popup">
+                    <input type="checkbox" id="click2">
+                    <label for="click" class="click-me">Give Details</label>
+                    <div class="popup-content">
+                        <div class="popup-header">
+                            <h2>Farm Fresh Gooseberry</h2>
+                            <label for="click" class="fa fa-times fa-lg"></label>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates veritatis quisquam rem natus ea similique dolorum laborum, harum quo sit praesentium impedit ipsam eum! Ipsam modi ratione error laboriosam velit.</p>
+                        <div class="line">
+                            <label for="click" class="close-btn">Close</label>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="product-cards">
@@ -372,7 +434,7 @@
 
 
         <!-- Footer -->
-        <footer class="bar" id="footer">
+        <!--<footer class="bar" id="footer">
             <section>
                 <div class="container_footer">
                     <div class="container_footer_about">
@@ -415,7 +477,79 @@
                     </div>
                 </div>
             </section>
+        </footer> -->
+
+        <footer class="footer-container">
+            <div class="footer">
+                <div class="footer-heading footer-1">
+                    <h2>About Us</h2>
+                    <a href="#">Blog</a>
+                    <a href="#">Demo</a>
+                    <a href="#">Customers</a>
+                    <a href="#">Investors</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+                <div class="footer-heading footer-2">
+                    <h2>Contact Us</h2>
+                    <a href="#">Jobs</a>
+                    <a href="#">Support</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Sponsorsips</a>
+                </div>
+                <div class="footer-heading footer-3">
+                    <h2>Social Media</h2>
+                    <a href="https://wa.me/918692961939">Whatsapp</a>
+                    <a href="https://www.instagram.com/farmerstableindia/?hl=en">Instagram</a>
+                    <a href="https://www.facebook.com/farmerstableindia/?ref=pages_you_manage">Facebook</a>
+                    <a href="https://www.linkedin.com/company/farmer-s-table/?viewAsMember=true">Linked In</a>
+                </div>
+                <div class="footer-email form">
+                    <h2>Join our Newsletter</h2>
+                    <input type="email" placeholder="Enter your email address" id="footer-email">
+                    <input type="submit" value="Sign Up" id="footer-email-btn">
+                    <div class="social">
+                        <div class="container-social">
+                            <a href="https://wa.me/918692961939"><img class="img_whatsapp" src="assets/whatsapp_float.png"></a>
+                        </div>
+                        <div class="container-social">
+                            <a href="https://www.instagram.com/farmerstableindia/?hl=en"><img class="img_instagram" src="assets/insta.png"></a>
+                        </div>
+                        <div class="container-social">
+                            <a href="https://www.facebook.com/farmerstableindia/?ref=pages_you_manage"><img class="img_facebook" src="./assets/fb.png"></a>
+                        </div>
+                        <div class="container-social">
+                            <a href="https://www.linkedin.com/company/farmer-s-table/?viewAsMember=true"><img class="img_linkedin" src="./assets/linkedin.png"></a>
+                        </div>
+                        <div class="container-social">
+                            <a href="tel:+91 8692961939"><img class="img_call" src="./assets/Call-Button.png"></a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
         </footer>
+
+        <!-- JQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <!-- Owl Carousel -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <!-- Custom Javascript -->
+        <script>
+            $(document).ready(function () {
+                $(".owl-carousel").owlCarousel({
+                    items:1,
+                    loop:true,
+                    nav:true,
+                    dots:true,
+                    autoplay:true,
+                    autoplaySpeed: 1000,
+                    smartSpeed: 1500,
+                    autoplayHoverPause:true
+                });
+            });
+        </script>
 </body>
 
 </html>
