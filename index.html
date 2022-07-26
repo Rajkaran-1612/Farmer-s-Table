@@ -24,6 +24,8 @@
         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
 </head>
 
 <body>
@@ -31,21 +33,21 @@
     <!-- Navigation -->
 
     <header>
-
-        <div class="navbar">
-            <img class="img_logo" src=".\assets\Farmer's_Table_logo.png">
-            <h3>Farmer's Table</h3>
-            <div class="bx bx-menu" id="menu-icon"></div>
-            <div class="list-header">
-                <ul class="list-non-bullet">
-                    <li class="list-item-inline"><a class="link" href="#">Home</a></li>
-                    <li class="list-item-inline"><a class="link" href="#about">About</a></li>
-                    <li class="list-item-inline"><a class="link" href="#products">Products</a></li>
-                    <li class="list-item-inline"><a class="link" href="#contact">Contact Us</a></li>
-                </ul>
-            </div>
-        </div>
+        <nav>
+                <a href="#home"><img class="img_logo" src="assets/header-logo.PNG"></a>
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <label id="icon">
+                <i class="fa fa-bars"></i>
+            </label>
+        </nav>
     </header>
+
+
 
     <!-- Site Title -->
 
@@ -111,6 +113,329 @@
         </div>
     </div>
 
+    <!-- Popup Modals for Details -->
+    <div class="modal-container" id="modal_container1">
+        <div class="modal">
+            <h1>Farm Fresh Strawberry</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et a explicabo officia sequi labore fuga, nam
+                totam autem modi quas ullam ad magni aperiam odit, assumenda nemo, inventore voluptas obcaecati.</p>
+                <button id="Close1">Close</button>
+        </div>
+    </div>
+
+    <div class="modal-container" id="modal_container2">
+        <div class="modal">
+            <h1>Farm Fresh Gooseberry</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et a explicabo officia sequi labore fuga, nam
+                totam autem modi quas ullam ad magni aperiam odit, assumenda nemo, inventore voluptas obcaecati.</p>
+                <button id="Close2">Close</button>
+        </div>
+    </div>
+
+    <div class="modal-container" id="modal_container3">
+        <div class="modal">
+            <h1>Alphonso Mango</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et a explicabo officia sequi labore fuga, nam
+                totam autem modi quas ullam ad magni aperiam odit, assumenda nemo, inventore voluptas obcaecati.</p>
+                <button id="Close3">Close</button>
+        </div>
+    </div>
+
+    <div class="modal-container" id="modal_container4">
+        <div class="modal">
+            <h1>Coconut Palm Vinegar</h1>
+            <p>Store in a cool dry place, keep
+                away from direct sunlight. Can
+                be used in salads, meat
+                marinades, soups and can be
+                used as any vinaigrette
+                substitute. It is a good
+                substitute for balsamic vinegar
+                and has many health benefits,
+                as there are no chemical and
+                artificial preservatives or
+                flavouring.</p>
+                <button id="Close4">Close</button>
+        </div>
+    </div>
+
+    <div class="modal-container" id="modal_container5">
+        <div class="modal">
+            <h1>Natural Sun Dried Kokum</h1>
+            <p>Store in a cool dry place. Can
+                be used as souring agent for
+                curries and dals, also used for
+                making sol kadhi (check out
+                Farmerstable’s Youtube for
+                recipes!). It is a cure for acidity
+                and good for digestion, has
+                anti - oxidant properties, helps
+                in cancer, diabetes and heart
+                conditions</p>
+                <button id="Close5">Close</button>
+        </div>
+    </div>
+
+    <div class="modal-container" id="modal_container6">
+        <div class="modal">
+            <h1>Sun Dried Stuffed Chilly</h1>
+            <p>Ready to fry accompaniment,
+                These are traditionally eaten
+                along with foods popularly by
+                Maharashtrians. Store in a cool
+                dry place. Fry like a snack and
+                eat with meals just as you
+                would eat salads or pickles as
+                accompaniment for foods
+                such as daal rice or any other
+                light flavoured food to
+                enhance the taste.</p>
+                <button id="Close6">Close</button>
+        </div>
+    </div>
+
+    <div class="modal-container" id="modal_container7">
+        <div class="modal">
+            <h1>Sun Dried Marinated Chilly</h1>
+            <p>Ready to fry side snack with
+                Indian food. Ready to fry
+                accompaniment, traditionally
+                eaten along Maharashtrian
+                foods. Store in a cool dry place.
+                Fry as a snack and eat with
+                meals in the same way that you
+                would eat salads or pickles as a
+                side to foods such as daal rice or
+                other light flavors to enhance
+                the flavor</p>
+                <button id="Close7">Close</button>
+        </div>
+    </div>
+
+    <div class="modal-container" id="modal_container8">
+        <div class="modal">
+            <h1>Natural Haldi Powder</h1>
+            <p>Turmeric is the spice that
+                gives curry its yellow color. It
+                has been used in India for
+                thousands of years as both a
+                spice and medicinal herb.
+                Recently, science has started
+                to back up traditional claims
+                that turmeric contains
+                compounds with medicinal
+                properties.</p>
+                <button id="Close8">Close</button>
+        </div>
+    </div>
+
+    <div class="modal-container" id="modal_container9">
+        <div class="modal">
+            <h1>Natural Cinnamon Powder</h1>
+            <p>We use the best quality
+                natural bark of
+                cinnamon tree to make
+                this pure natural
+                cinnamon powder.
+                Store in a cool dry
+                place.</p>
+                <button id="Close9">Close</button>
+        </div>
+    </div>
+
+    <div class="modal-container" id="modal_container10">
+        <div class="modal">
+            <h1>Malvan Cha Masala</h1>
+            <p>Used traditionally in everyday
+                cooking along the west coast
+                of maharashtra called the
+                konkan coast, It is a mixure of
+                multiple whole spices and
+                adds a distinctive flavour to
+                foods especially curries, and
+                dals.
+                Store in dry place at room
+                temporature. Use dry spoon &
+                keep away from moisture.</p>
+                <button id="Close10">Close</button>
+        </div>
+    </div>
+
+    <div class="modal-container" id="modal_container11">
+        <div class="modal">
+            <h1>Traditional Marathi Masala</h1>
+            <p>This is a traditional
+                marathi masala used
+                mainly in vegetarian
+                dishes/ foods.
+                Store in dry place at
+                room temporature. Use
+                dry spoon & keep away
+                from moisture. 
+                </p>
+                <button id="Close11">Close</button>
+        </div>
+    </div>
+
+    <div class="modal-container" id="modal_container12">
+        <div class="modal">
+            <h1>Traditional Marathi Masala (all purpose)</h1>
+            <p>This is an all purpose
+                traditional marathi masala
+                can be used for meat
+                marinades, curries or
+                vegetarian dishes, etc. for
+                more details check our
+                social media pages. (not
+                Jain friendly) Store in dry
+                place at room
+                temporature. Use dry
+                spoon & keep away from
+                moisture. </p>
+                <button id="Close12">Close</button>
+        </div>
+    </div>
+
+    <div class="modal-container" id="modal_container13">
+        <div class="modal">
+            <h1>Filter Kapi</h1>
+            <p>Grounded and roasted
+                from pure arabica beans
+                (approximately 80%). No
+                chicory added. This pouch
+                is re-usable and is made of
+                oxo degradable material.
+                Store in a cool dry place,
+                keep away from moisture.</p>
+                <button id="Close13">Close</button>
+        </div>
+    </div>
+
+    <div class="modal-container" id="modal_container14">
+        <div class="modal">
+            <h1>Pure Instant Koffee</h1>
+            <p>Made from pure coffee
+                beans, no chicory added.
+                This pouch is reusable and
+                is made of oxo degradable
+                material. Store in a cool dry
+                place, keep away from
+                moisture.</p>
+                <button id="Close14">Close</button>
+        </div>
+    </div>
+
+    <div class="modal-container" id="modal_container15">
+        <div class="modal">
+            <h1>Filter Kapi Maker</h1>
+            <p>A time-honored way
+                to make a nice,
+                strong cup of joe, the
+                percolator coffee pot
+                doesn't technically
+                require a filter
+                because the design
+                includes a filter
+                basket. As the water
+                repeats its perking
+                cycle, grounds can
+                find their way
+                through the holes in
+                the basket and into
+                the finished product,
+                a strong cup or two
+                of our Indian origin
+                Kapi.</p>
+                <button id="Close15">Close</button>
+        </div>
+    </div>
+
+    <div class="modal-container" id="modal_container16">
+        <div class="modal">
+            <h1>Filter Kapi Maker (Brass)</h1>
+            <p>A time-honored way
+                to make a nice,
+                strong cup of joe, the
+                percolator coffee pot
+                doesn't technically
+                require a filter
+                because the design
+                includes a filter
+                basket. As the water
+                repeats its perking
+                cycle, grounds can
+                find their way
+                through the holes in
+                the basket and into
+                the finished product,
+                a strong cup or two
+                of our Indian origin
+                Kapi.</p>
+                <button id="Close16">Close</button>
+        </div>
+    </div>
+
+    <div class="modal-container" id="modal_container17">
+        <div class="modal">
+            <h1>Natural Jeera Powder</h1>
+            <p>Many dishes use
+                cumin, especially
+                foods from its native
+                regions of the
+                Mediterranean and
+                Southwest Asia.
+                Cumin lends its
+                distinctive flavour to
+                chilli, tamales and
+                various Indian curries</p>
+                <button id="Close17">Close</button>
+        </div>
+    </div>
+
+    <div class="modal-container" id="modal_container18">
+        <div class="modal">
+            <h1>Natural Jeera (whole)</h1>
+            <p>Its flavour has
+                been described as
+                earthy, nutty, spicy
+                and warm. Cumin
+                has long been
+                used in traditional
+                medicine.</p>
+                <button id="Close18">Close</button>
+        </div>
+    </div>
+
+    <div class="modal-container" id="modal_container19">
+        <div class="modal">
+            <h1>Natural Farm Honey</h1>
+            <p>Farm honey is collected from
+                farm crops where the bees
+                are kept. Do not refrigerate.
+                For best quality use a
+                wooden or plastic spoon to
+                take out the honey contents,
+                avoid metal spoons.</p>
+                <button id="Close19">Close</button>
+        </div>
+    </div>
+
+    <div class="modal-container" id="modal_container20">
+        <div class="modal">
+            <h1>Natural Forest Honey</h1>
+            <p>Forest honey is 100% natural
+                as bees are kept in forest so
+                the source is forest where no
+                chemical sprays are used. Do
+                not refrigerate. For best
+                quality use a wooden or
+                plastic spoon to take out the
+                honey contents, avoid metal
+                spoons.</p>
+                <button id="Close20">Close</button>
+        </div>
+    </div>
+
     <!-- Products -->
 
     <div id="products"><b>Our Products</b></div>
@@ -150,22 +475,7 @@
             <div id="product-price"><b>₹500</b></div>
             <div id="utility_buttons">
                 <button class="button">Buy Now</button>
-                <div class="popup">
-                    <input type="checkbox" id="click">
-                    <label for="click" class="click-me">Give Details</label>
-                    <div class="popup-content">
-                        <div class="popup-header">
-                            <h2>Farm Fresh Strawberry</h2>
-                            <label for="click" class="fa fa-times fa-lg"></label>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates veritatis quisquam rem
-                            natus ea similique dolorum laborum, harum quo sit praesentium impedit ipsam eum! Ipsam modi
-                            ratione error laboriosam velit.</p>
-                        <div class="line">
-                            <label for="click" class="close-btn">Close</label>
-                        </div>
-                    </div>
-                </div>
+                <button class="button" id="open1">Give Details</button>
             </div>
         </div>
         <div class="product-cards">
@@ -175,22 +485,7 @@
             <div id="product-price"><b>₹500</b></div>
             <div id="utility_buttons_2">
                 <button class="button">Buy Now</button>
-                <div class="popup">
-                    <input type="checkbox" id="click2">
-                    <label for="click" class="click-me">Give Details</label>
-                    <div class="popup-content">
-                        <div class="popup-header">
-                            <h2>Farm Fresh Gooseberry</h2>
-                            <label for="click" class="fa fa-times fa-lg"></label>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates veritatis quisquam rem
-                            natus ea similique dolorum laborum, harum quo sit praesentium impedit ipsam eum! Ipsam modi
-                            ratione error laboriosam velit.</p>
-                        <div class="line">
-                            <label for="click" class="close-btn">Close</label>
-                        </div>
-                    </div>
-                </div>
+                <button class="button" id="open2">Give Details</button>
             </div>
         </div>
         <div class="product-cards">
@@ -200,7 +495,7 @@
             <div id="product-price"><b>₹500</b></div>
             <div id="utility_buttons">
                 <button class="button">Buy Now</button>
-                <button class="button">Give Details</button>
+                <button class="button" id="open3">Give Details</button>
             </div>
         </div>
     </div>
@@ -215,7 +510,7 @@
             <div id="product-price"><b>₹195</b></div>
             <div id="utility_buttons">
                 <button class="button">Buy Now</button>
-                <button class="button">Give Details</button>
+                <button class="button" id="open4">Give Details</button>
             </div>
         </div>
         <div class="product-cards">
@@ -225,7 +520,7 @@
             <div id="product-price"><b>₹85</b></div>
             <div id="utility_buttons">
                 <button class="button">Buy Now</button>
-                <button class="button">Give Details</button>
+                <button class="button" id="open5">Give Details</button>
             </div>
         </div>
     </div>
@@ -240,7 +535,7 @@
             <div id="product-price"><b>₹85</b></div>
             <div id="utility_buttons">
                 <button class="button">Buy Now</button>
-                <button class="button">Give Details</button>
+                <button class="button" id="open6">Give Details</button>
             </div>
         </div>
         <div class="product-cards">
@@ -250,7 +545,7 @@
             <div id="product-price"><b>₹66</b></div>
             <div id="utility_buttons">
                 <button class="button">Buy Now</button>
-                <button class="button">Give Details</button>
+                <button class="button" id="open7">Give Details</button>
             </div>
         </div>
         <div class="product-cards">
@@ -260,7 +555,7 @@
             <div id="product-price"><b>₹80</b></div>
             <div id="utility_buttons">
                 <button class="button">Buy Now</button>
-                <button class="button">Give Details</button>
+                <button class="button" id="open8">Give Details</button>
             </div>
         </div>
     </div>
@@ -272,7 +567,7 @@
             <div id="product-price"><b>₹115</b></div>
             <div id="utility_buttons">
                 <button class="button">Buy Now</button>
-                <button class="button">Give Details</button>
+                <button class="button" id="open9">Give Details</button>
             </div>
         </div>
         <div class="product-cards">
@@ -282,7 +577,7 @@
             <div id="product-price"><b>₹190</b></div>
             <div id="utility_buttons">
                 <button class="button">Buy Now</button>
-                <button class="button">Give Details</button>
+                <button class="button" id="open10">Give Details</button>
             </div>
         </div>
         <div class="product-cards">
@@ -292,7 +587,7 @@
             <div id="product-price"><b>₹110</b></div>
             <div id="utility_buttons">
                 <button class="button">Buy Now</button>
-                <button class="button">Give Details</button>
+                <button class="button" id="open11">Give Details</button>
             </div>
         </div>
     </div>
@@ -304,7 +599,7 @@
             <div id="product-price"><b>₹110</b></div>
             <div id="utility_buttons">
                 <button class="button">Buy Now</button>
-                <button class="button">Give Details</button>
+                <button class="button" id="open12">Give Details</button>
             </div>
         </div>
     </div>
@@ -318,7 +613,7 @@
             <div id="product-price"><b>₹195</b></div>
             <div id="utility_buttons">
                 <button class="button">Buy Now</button>
-                <button class="button">Give Details</button>
+                <button class="button" id="open13">Give Details</button>
             </div>
         </div>
         <div class="product-cards">
@@ -328,7 +623,7 @@
             <div id="product-price"><b>₹295/₹695</b></div>
             <div id="utility_buttons">
                 <button class="button">Buy Now</button>
-                <button class="button">Give Details</button>
+                <button class="button" id="open14">Give Details</button>
             </div>
         </div>
     </div>
@@ -343,7 +638,7 @@
             <div id="product-price"><b>₹275</b></div>
             <div id="utility_buttons">
                 <button class="button">Buy Now</button>
-                <button class="button">Give Details</button>
+                <button class="button" id="open15">Give Details</button>
             </div>
         </div>
         <div class="product-cards">
@@ -353,7 +648,7 @@
             <div id="product-price"><b>₹799</b></div>
             <div id="utility_buttons">
                 <button class="button">Buy Now</button>
-                <button class="button">Give Details</button>
+                <button class="button" id="open16">Give Details</button>
             </div>
         </div>
     </div>
@@ -368,7 +663,7 @@
             <div id="product-price"><b>₹61</b></div>
             <div id="utility_buttons">
                 <button class="button">Buy Now</button>
-                <button class="button">Give Details</button>
+                <button class="button" id="open17">Give Details</button>
             </div>
         </div>
         <div class="product-cards">
@@ -378,7 +673,7 @@
             <div id="product-price"><b>₹170</b></div>
             <div id="utility_buttons">
                 <button class="button">Buy Now</button>
-                <button class="button">Give Details</button>
+                <button class="button" id="open18">Give Details</button>
             </div>
         </div>
     </div>
@@ -393,7 +688,7 @@
             <div id="product-price"><b>₹225/₹395</b></div>
             <div id="utility_buttons">
                 <button class="button">Buy Now</button>
-                <button class="button">Give Details</button>
+                <button class="button" id="open19">Give Details</button>
             </div>
         </div>
         <div class="product-cards">
@@ -403,33 +698,29 @@
             <div id="product-price"><b>₹295</b></div>
             <div id="utility_buttons">
                 <button class="button">Buy Now</button>
-                <button class="button">Give Details</button>
+                <button class="button" id="open20">Give Details</button>
             </div>
         </div>
     </div>
 
     <!-- Form -->
-    <div id="suggestion-form"><b>Suggestion Box</b></div>
-    <img class="img_line" src="./assets/Line.png">
-    <div class="suggestion">
-        <h2>Suggestion</h2>
-        <form method="post">
-            <div class="txt_field">
-                <input type="text" required>
-                <span></span>
-                <label>Name</label>
-            </div>
-            <div class="txt_field">
-                <input type="email" required>
-                <span></span>
-                <label>Email</label>
-            </div>
-            <div class="txt_area">
-                <Label>Message</Label>
-                <textarea cols="46" rows="8"></textarea>
-            </div>
-            <input type="submit" value="Send">
-        </form>
+    <div class="form-container view" id="form_container">
+        <div class="suggestion">
+            <h2>Fill to Continue</h2>
+            <form method="post" id="form_details">
+                <div class="txt_field">
+                    <input type="text" required>
+                    <span></span>
+                    <label>Name</label>
+                </div>
+                <div class="txt_field">
+                    <input type="tel" required>
+                    <span></span>
+                    <label>Mobile Number</label>
+                </div>
+                <input type="submit" value="Send">
+            </form>
+        </div>
     </div>
 
     <!-- Google Maps Integration -->
@@ -509,32 +800,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- Custom Javascript -->
-    <script>
-        $(document).ready(function () {
-            $(".owl-carousel").owlCarousel({
-                items: 1,
-                loop: true,
-                nav: true,
-                dots: true,
-                autoplay: true,
-                autoplaySpeed: 1000,
-                smartSpeed: 1500,
-                autoplayHoverPause: true
-            });
-        });
-
-        //Navbar
-        let menu = document.querySelector('#menu-icon');
-        let navbar = document.querySelector('.list-header');
-
-        menu.onclick = () => {
-            navbar.classList.toggle('active');
-        }
-
-        window.onscroll = () => {
-            navbar.classList.remove('active');
-        }
-    </script>
+    <script src="main.js"></script>
 </body>
 
 </html>
