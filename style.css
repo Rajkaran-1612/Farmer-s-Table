@@ -97,24 +97,6 @@ ul {
     display: none;
 }
 
-.site_title {
-    max-height: 100vh;
-    max-width: 100%;
-}
-
-.site_title-img {
-    height: 52vh;
-    margin-top: 3%;
-    margin-left: 37%;
-}
-
-#site_title-caption {
-    color: #5f544e;
-    font-size: xx-large;
-    text-align: center;
-    margin-top: 1rem;
-}
-
 b {
     font-weight: 600;
 }
@@ -125,7 +107,7 @@ b {
 }
 
 .slide {
-    width: 105%;
+    width: 100%;
     height: 68vh;
     position: relative;
 }
@@ -229,7 +211,38 @@ b {
 
 .container {
     display: flex;
+    flex-wrap: nowrap;
 }
+
+.container-fruits {
+    display: flex;
+}
+
+.container-food {
+    display: flex;
+}
+
+.container-spices {
+    display: flex;
+}
+
+.container-coffee {
+    display: flex;
+}
+
+.container-coffeemakers {
+    display: flex;
+}
+
+.container-jeera {
+    display: flex;
+}
+
+.container-honey {
+    display: flex;
+}
+
+
 
 .categories-cards {
     width: 30vh;
@@ -241,7 +254,6 @@ b {
     margin-bottom: 100px;
     margin-left: 10px;
     padding: 10px;
-    font-size: larger;
     transition: 1s;
     box-shadow: 1.5px 1.5px 1.5px 1.5px gray;
     display: flex;
@@ -756,5 +768,590 @@ input[type="submit"]:hover {
         box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
         transition: 0.2s ease;
     }
+
+    .list-header.active {
+        top: 100%;
+    }
+
+    .list-header a {
+        padding: 1.5rem;
+        display: block;
+        background: #e2d1c1;
+    }
 }*/
 
+@media (max-width: 991px) {
+    .slide {
+        width: 108%;
+        height: 48vh;
+        position: relative;
+    }
+
+    .owl-carousel {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .owl-dots {
+        padding-left: 21px;
+    }
+    
+    .owl-dots span {
+        width: 12px !important;
+        height: 12px !important;
+    }
+
+    .owl-prev, .owl-next {
+        top: 20%;
+        font-size: 65px !important;
+    }
+
+    .banner {
+        height: 83vh;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        flex: 60%
+    }
+
+    .categories-cards {
+        margin: 20px 10px 20px 10px;
+        width: 35vh;
+    }
+
+    .button-click {
+        height: 8vh;
+        width: 16vw;
+    }
+
+    .container-fruits {
+        flex-direction: column;
+    }
+
+    .product-cards {
+        width: 30vw;
+        height: 58vh;
+    }
+
+    #product-title {
+        padding-left: 48px;
+    }
+
+    #product-quantity {
+        padding-left: 48px;
+    }
+    
+    #product-price {
+        padding-left: 48px;
+    }
+
+    .button {
+        height: 8vh;
+        width: 8vw;
+        font-size: large;
+    }
+
+    .img_product {
+        height: 30vh;
+    }
+
+    .container-spices {
+        flex-direction: column;
+    }
+
+    .suggestion {
+        left: 275px;
+        width: 400px;
+    }
+
+}
+
+@media (max-width: 860px) {
+    .owl-carousel {
+        width: 100%;
+        height: 45vh;
+    }
+
+    .owl-dots {
+        padding-left: 19px;
+    }
+    
+    .owl-dots span {
+        width: 10px !important;
+        height: 10px !important;
+    }
+
+    .banner {
+        margin-top: 3rem;
+        height: 90vh;
+    }
+}
+
+@media (max-width: 812px) {
+    .slide {
+        width: 108%;
+        height: 45vh;
+        position: relative;
+    }
+
+    .owl-carousel {
+        width: 100%;
+        height: 42vh;
+    }
+
+    .owl-dots {
+        padding-left: 20px;
+    }
+    
+    .owl-dots span {
+        width: 10px !important;
+        height: 10px !important;
+    }
+
+    .banner {
+        height: 100vh;
+    }
+
+    .product-cards {
+        width: 30vw;
+        height: 50vh;
+    }
+
+    #product-title {
+        font-size: small;
+        padding-left: 42px;
+    }
+
+    #product-quantity {
+        font-size: small;
+        padding-left: 42px;
+    }
+    
+    #product-price {
+        padding-left: 42px;
+        font-size: medium;
+    }
+
+    .button {
+        height: 8vh;
+        width: 8vw;
+        font-size: medium;
+    }
+
+    .img_product {
+        height: 22vh;
+        padding-top: 20px;
+    }
+
+    .suggestion {
+        left: 225px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 780px) {
+    .slide {
+        width: 111%;
+        height: 45vh;
+        position: relative;
+    }
+
+    .owl-carousel {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .owl-dots {
+        padding-left: 30px;
+    }
+
+    .categories-cards {
+        width: 42vh;
+    }
+
+    .button-click {
+        height: 8vh;
+        width: 20vw;
+    }
+
+    .owl-prev, .owl-next {
+        top: 15%;
+        font-size: 60px !important;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .container-food {
+        flex-direction: column;
+    }
+
+    .img_whatsapp {
+        height: 4vh;
+    }
+    
+    .img_instagram {
+        height: 4vh;
+    }
+    
+    .img_facebook {
+        height: 4vh;
+    }
+    
+    .img_linkedin {
+        height: 4vh;
+    }
+    
+    .img_call {
+        height: 4vh;
+    }
+    
+    .container-coffee {
+        flex-direction: column;
+    }
+    
+    .container-coffeemakers {
+        flex-direction: column;
+    }
+    
+    .container-jeera {
+        flex-direction: column;
+    }
+    
+    .container-honey {
+        flex-direction: column;
+    }
+
+    .product-cards {
+        width: 35vw;
+        height: 60vh;
+    }
+
+    #product-title {
+        padding-left: 47px;
+    }
+
+    #product-quantity {
+        padding-left: 47px;
+    }
+    
+    #product-price {
+        padding-left: 47px;
+    }
+
+    .button {
+        height: 8vh;
+        width: 10vw;
+    }
+
+    .img_product {
+        height: 26vh;
+        padding-top: 20px;
+    }
+
+    #seasonalfruits {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 680px) {
+    #about {
+        font-size: x-large;
+    }
+
+    .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .banner {
+        height: 110vh;
+    }
+
+    .categories-cards {
+        width: 52vh;
+        height: 18vw;
+    }
+
+    .button-click {
+        height: 6vh;
+        width: 24vw;
+        font-size: medium;
+    }
+
+    .product-cards {
+        width: 40vw;
+        height: 55vh;
+    }
+
+    .button {
+        height: 8vh;
+        width: 12vw;
+    }
+
+    #product-title {
+        padding-left: 42px;
+    }
+
+    #product-quantity {
+        padding-left: 42px;
+    }
+    
+    #product-price {
+        padding-left: 42px;
+    }
+
+    .img_whatsapp {
+        height: 3vh;
+    }
+    
+    .img_instagram {
+        height: 3vh;
+    }
+    
+    .img_facebook {
+        height: 3vh;
+    }
+    
+    .img_linkedin {
+        height: 3vh;
+    }
+    
+    .img_call {
+        height: 3vh;
+    }
+
+    .suggestion {
+        left: 150px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 620px) {
+    #about {
+        font-size: large;
+    }
+
+    #about-text {
+        height: 40vh;
+        width: 60vw;
+        text-align: center;
+    }
+
+    .banner {
+        height: 90vh;
+    }
+
+    .owl-carousel {
+        width: 100%;
+        height: 35vh;
+    }
+
+    .owl-dots {
+        padding-left: 27px;
+    }
+
+    .suggestion {
+        left: 120px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 544px) {
+    .product-cards {
+        width: 50vw;
+        height: 55vh;
+    }
+
+    .button {
+        height: 8vh;
+        width: 14vw;
+    }
+
+    .suggestion {
+        left: 70px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+    .owl-prev, .owl-next {
+        top: 10%;
+        font-size: 50px !important;
+    }
+
+    .owl-carousel {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .owl-dots {
+        padding-left: 20px;
+    }
+
+    .owl-dots span {
+        width: 8px !important;
+        height: 8px !important;
+    }
+
+    #about {
+        font-size: medium;
+    }
+
+    #about-text {
+        height: 40vh;
+        width: 70vw;
+        text-align: center;
+    }
+
+    .banner {
+        height: 85vh;
+    }
+
+    .categories-cards {
+        width: 52vh;
+        height: 24vw;
+    }
+
+    .button-click {
+        height: 7vh;
+        width: 28vw;
+        font-size: medium;
+    }
+
+    .suggestion {
+        left: 30px;
+        width: 400px;
+    }
+
+    .location {
+        margin-left: 20px;
+        margin-right: 50px;
+        margin-bottom: 40px;
+    }
+
+    .map {
+        height: 300px;
+    }
+}
+
+@media (max-width: 425px) {
+    .owl-carousel {
+        width: 100%;
+        height: 25vh;
+    }
+
+    .owl-dots {
+        padding-left: 15px;
+    }
+
+    .banner {
+        height: 100vh;
+    }
+
+    .button-click {
+        height: 7vh;
+        width: 35vw;
+        font-size: medium;
+    }
+
+    .product-cards {
+        width: 60vw;
+        height: 53vh;
+        margin-left: 50px;
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+
+    .button {
+        height: 8vh;
+        width: 17vw;
+    }
+
+    #product-title {
+        padding-left: 43px;
+    }
+
+    #product-quantity {
+        padding-left: 43px;
+    }
+    
+    #product-price {
+        padding-left: 43px;
+    }
+
+    .img_product {
+        height: 23vh;
+        padding-top: 20px;
+        margin-left: 60px;
+    }
+
+    .suggestion {
+        left: 30px;
+        width: 300px;
+    }
+    
+    textarea {
+        width: 220px;
+        height: 15vh;
+    }
+
+    .map {
+        height: 230px;
+    }
+
+    .footer-container {
+        padding: 2rem 0 2rem 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .banner {
+        height: 115vh;
+    }
+
+    .button-click {
+        height: 7vh;
+        width: 38vw;
+        font-size: medium;
+    }
+
+    .button {
+        height: 8vh;
+        width: 18vw;
+    }
+
+    #product-title {
+        padding-left: 38px;
+    }
+
+    #product-quantity {
+        padding-left: 38px;
+    }
+    
+    #product-price {
+        padding-left: 38px;
+    }
+
+    .img_product {
+        height: 20vh;
+        padding-top: 20px;
+        margin-left: 50px;
+    }
+
+    .suggestion {
+        left: 30px;
+        width: 270px;
+    }
+    
+    textarea {
+        width: 190px;
+        height: 13vh;
+    }
+
+    .map {
+        height: 200px;
+    }
+}
