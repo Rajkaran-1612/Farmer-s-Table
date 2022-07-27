@@ -649,7 +649,8 @@ form button:hover {
 }
 
 .footer_logo {
-    height: 25vh;
+    height: 20vh;
+    padding-top: 10px;
 }
 
 .footer-heading {
