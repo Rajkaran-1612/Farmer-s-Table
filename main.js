@@ -44,6 +44,24 @@ $("form").on("submit", function (e) {
     e.preventDefault();
 });
 
+$("#cancel").on("click", function (e) {
+
+    $('#form_container').removeClass('view');
+    $('#form_container').addClass('noview');
+     
+    //Needed for data processing
+    /*$.ajax({
+      type: "POST",
+      url: "bin/process.php",
+      data: dataString,
+      success: function () {
+        print("Submitted");
+      }
+    });*/
+ 
+    e.preventDefault();
+});
+
 
 //popup modals
 const openn1 = document.getElementById("open1");
