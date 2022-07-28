@@ -323,3 +323,45 @@ openn20.addEventListener('click', () => {
 closee20.addEventListener('click', () => {
     modal_container20.classList.remove('displayy');
 });
+
+//Orders and Delivery modal
+const openn21 = document.getElementById("open_orders");
+const orders_container = document.getElementById("orders_container");
+const Close_order = document.getElementById("Close_order");
+
+openn21.addEventListener('click', () => {
+    orders_container.classList.add('displayy');
+});
+
+
+Close_order.addEventListener('click', () => {
+    orders_container.classList.remove('displayy');
+});
+
+//Return Policy modal
+const openn22 = document.getElementById("open_return");
+const return_container = document.getElementById("return_container");
+const Close_return = document.getElementById("Close_return");
+
+openn22.addEventListener('click', () => {
+    return_container.classList.add('displayy');
+});
+
+
+Close_return.addEventListener('click', () => {
+    return_container.classList.remove('displayy');
+});
+
+//Cancellation Policy modal
+const openn23 = document.getElementById("open_cancellation");
+const cancellation_container = document.getElementById("cancellation_container");
+const Close_cancellation = document.getElementById("Close_cancellation");
+
+openn23.addEventListener('click', () => {
+    cancellation_container.classList.add('displayy');
+});
+
+
+Close_cancellation.addEventListener('click', () => {
+    cancellation_container.classList.remove('displayy');
+});
