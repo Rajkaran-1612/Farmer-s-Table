@@ -154,7 +154,7 @@ b {
     right: 25px;
 }
 
-.banner {
+/*.banner {
     width: auto;
     height: 74vh;
     background-color: #a24f4e;
@@ -180,6 +180,86 @@ b {
     height: 40vh;
     width: 40vw;
     text-align: center;
+}*/
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    height: 140vh;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 6%;
+    box-shadow: 3px 3px 3px 3px gray;
+    border-radius: 25px 100px 40px;
+}
+
+.about {
+    display: flex;
+    background: white;
+    height: 60%;
+    border-radius: 25px 100px 0 0;
+}
+
+.why-us {
+    display: flex;
+    background: #a24f4e;
+    height: 40%;
+    border-radius: 0 0 40px 100px;
+}
+
+.about-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #a24f4e;
+    width: 50%;
+    border-radius: 25px 0 0 0;
+}
+
+.about-image h1 {
+    color: white;
+    text-shadow: 2px 2px gray;
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.about-content {
+    background: white;
+    width: 50%;
+    border-radius: 0 100px 0 0;
+}
+
+.about-text {
+    color: #a24f4e;
+    width: 70%;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.why-us-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #a24f4e;
+    width: 50%;
+    border-radius: 0 0 40px 0;
+}
+
+.why-us-content {
+    background: white;
+    width: 50%;
+    border-radius: 0 0 0 100px;
+}
+
+.why-us-image h1 {
+    color: white;
+    text-shadow: 2px 2px gray;
+    text-align: center;
+    font-size: 4rem;
 }
 
 #products {
@@ -289,43 +369,43 @@ b {
 }
 
 #foodenhancements {
-    color: black;
+    color: #1a1a1a;
     font-size: xx-large;
     margin-left: 2rem;
 }
 
 #spices {
-    color: black;
+    color: #1a1a1a;
     font-size: xx-large;
     margin-left: 2rem;
 }
 
 #coffee {
-    color: black;
+    color: #1a1a1a;
     font-size: xx-large;
     margin-left: 2rem;
 }
 
 #coffeemakers {
-    color: black;
+    color: #1a1a1a;
     font-size: xx-large;
     margin-left: 2rem;
 }
 
 #jeera {
-    color: black;
+    color: #1a1a1a;
     font-size: xx-large;
     margin-left: 2rem;
 }
 
 #honey {
-    color: black;
+    color: #1a1a1a;
     font-size: xx-large;
     margin-left: 2rem;
 }
 
 #location {
-    color: black;
+    color: #1a1a1a;
     font-size: xx-large;
     margin-left: 2rem;
     margin-top: 5rem;
