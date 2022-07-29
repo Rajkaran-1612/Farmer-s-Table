@@ -1198,6 +1198,54 @@ h2.social-media {
     justify-content: center;
 }
 
+@media (min-width: 1446px) {
+    .product-cards {
+        width: 25vw;
+        margin-left: 90px;
+    }
+
+    #product-price {
+        padding-left: 42px;
+    }
+    #product-title {
+        padding-left: 42px;
+    }
+    #product-quantity {
+        padding-left: 42px;
+    }
+
+    .img_gooseberry {
+        margin-left: 13%;
+    }
+}
+
+@media (max-width: 1446px) {
+    .product-cards {
+        width: 25vw;
+        margin-left: 90px;
+    }
+
+    #product-price {
+        padding-left: 42px;
+    }
+    #product-title {
+        padding-left: 42px;
+    }
+    #product-quantity {
+        padding-left: 42px;
+    }
+
+    .img_gooseberry {
+        margin-left: 13%;
+    }
+}
+
+@media (max-width: 1315px) {
+    .img_gooseberry {
+        margin-left: 8%;
+    }
+}
+
 @media (max-width: 1048px) {
     nav ul {
         margin-right: 20px;
@@ -1268,10 +1316,6 @@ h2.social-media {
         margin-left: 17%;
     }
 
-    .banner {
-        height: 76vh;
-    }
-
     .product-cards {
         height: 56vh;
     }
@@ -1281,6 +1325,38 @@ h2.social-media {
         width: 400px;
     }
 
+    .img_gooseberry {
+        height: 26vh;
+        margin-left: 16%;
+    }
+
+    .img_strawberry {
+        height: 26vh;
+    }
+
+    .img_mango {
+        height: 26vh;
+        margin-left: 24%;
+    }
+
+}
+
+@media (max-width: 1170px) {
+    #product-price {
+        padding-left: 35px;
+    }
+    #product-title {
+        padding-left: 35px;
+    }
+    #product-quantity {
+        padding-left: 35px;
+    }
+}
+
+@media (max-width: 1075px) {
+    .img_gooseberry {
+        margin-left: 12%;
+    }
 }
 
 @media (max-width: 991px) {
@@ -1313,8 +1389,8 @@ h2.social-media {
         font-size: 65px !important;
     }
 
-    .banner {
-        height: 83vh;
+    .about-text {
+        font-size: 1rem;
     }
 
     .container {
@@ -1372,6 +1448,52 @@ h2.social-media {
         width: 400px;
     }
 
+    .img_gooseberry {
+        margin-left: 17%;
+    }
+
+}
+
+@media (max-width: 962px) {
+    .about-text {
+        font-size: .9rem;
+    }
+
+    .banner {
+        height: 120vh;
+    }
+}
+
+@media (max-width: 880px) {
+    #product-price {
+        padding-left: 32px;
+    }
+    #product-title {
+        padding-left: 32px;
+    }
+    #product-quantity {
+        padding-left: 32px;
+    }
+
+    .img_gooseberry {
+        margin-left: 13%;
+    }
+}
+
+@media (max-width: 818px) {
+    .img_gooseberry {
+        margin-left: 11%;
+    }
+}
+
+@media (max-width: 866px) {
+    .about-text {
+        font-size: .82rem;
+    }
+
+    .banner {
+        height: 113vh;
+    }
 }
 
 @media (max-width: 860px) {
@@ -1387,11 +1509,6 @@ h2.social-media {
     .owl-dots span {
         width: 10px !important;
         height: 10px !important;
-    }
-
-    .banner {
-        margin-top: 3rem;
-        height: 90vh;
     }
 }
 
@@ -1416,10 +1533,6 @@ h2.social-media {
         height: 10px !important;
     }
 
-    .banner {
-        height: 100vh;
-    }
-
     .product-cards {
         width: 30vw;
         height: 50vh;
@@ -1427,16 +1540,16 @@ h2.social-media {
 
     #product-title {
         font-size: small;
-        padding-left: 42px;
+        padding-left: 32px;
     }
 
     #product-quantity {
         font-size: small;
-        padding-left: 42px;
+        padding-left: 32px;
     }
     
     #product-price {
-        padding-left: 42px;
+        padding-left: 32px;
         font-size: medium;
     }
 
@@ -1454,6 +1567,16 @@ h2.social-media {
     .suggestion {
         left: 225px;
         width: 400px;
+    }
+}
+
+@media (max-width: 790px) {
+    .about-text {
+        font-size: .8rem;
+    }
+
+    .banner {
+        height: 110vh;
     }
 }
 
@@ -1564,6 +1687,34 @@ h2.social-media {
     }
 }
 
+@media (max-width: 738px) {
+    .about-image h1 {
+        font-size: 4rem;
+    }
+
+    .why-us-image h1 {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 694px) {
+    .about-image h1 {
+        font-size: 3.5rem;
+    }
+
+    .why-us-image h1 {
+        font-size: 3.5rem;
+    }
+
+    .about-text {
+        font-size: .7rem;
+    }
+
+    .banner {
+        height: 100vh;
+    }
+}
+
 @media (max-width: 680px) {
     #about {
         font-size: x-large;
@@ -1572,10 +1723,6 @@ h2.social-media {
     .container {
         flex-direction: column;
         justify-content: center;
-    }
-
-    .banner {
-        height: 110vh;
     }
 
     .modal button {
@@ -1645,6 +1792,28 @@ h2.social-media {
     }
 }
 
+@media (max-width: 650px) {
+    .about-image h1 {
+        font-size: 3.2rem;
+    }
+
+    nav ul {
+        left:-110%
+    }
+
+    .why-us-image h1 {
+        font-size: 3.2rem;
+    }
+
+    .about-text {
+        font-size: .65rem;
+    }
+
+    .banner {
+        height: 95vh;
+    }
+}
+
 @media (max-width: 620px) {
     #about {
         font-size: large;
@@ -1654,10 +1823,6 @@ h2.social-media {
         height: 40vh;
         width: 60vw;
         text-align: center;
-    }
-
-    .banner {
-        height: 90vh;
     }
 
     .owl-carousel {
@@ -1672,6 +1837,28 @@ h2.social-media {
     .suggestion {
         left: 120px;
         width: 400px;
+    }
+
+    .img_gooseberry {
+        margin-left: 8%;
+    }
+}
+
+@media (max-width: 602px) {
+    .about-image h1 {
+        font-size: 3rem;
+    }
+
+    .why-us-image h1 {
+        font-size: 3rem;
+    }
+
+    .about-text {
+        font-size: .6rem;
+    }
+
+    .banner {
+        height: 88vh;
     }
 }
 
@@ -1689,6 +1876,24 @@ h2.social-media {
     .suggestion {
         left: 70px;
         width: 400px;
+    }
+}
+
+@media (max-width: 510px) {
+    .about-image h1 {
+        font-size: 2.5rem;
+    }
+
+    .why-us-image h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-text {
+        font-size: .56rem;
+    }
+
+    .banner {
+        height: 85vh;
     }
 }
 
@@ -1754,6 +1959,46 @@ h2.social-media {
 
     .map {
         height: 300px;
+    }
+}
+
+@media (max-width: 466px) {
+    .about-image h1 {
+        font-size: 2.4rem;
+    }
+
+    nav ul {
+        left: -115%;
+    }
+
+    .why-us-image h1 {
+        font-size: 2.4rem;
+    }
+
+    .about-text {
+        font-size: .55rem;
+    }
+
+    .banner {
+        height: 85vh;
+    }
+
+    .img_gooseberry {
+        height: 23vh;
+        margin-top: 15%;
+        margin-left: 12%;
+    }
+
+    #product-title {
+        padding-left: 38px;
+    }
+
+    #product-quantity {
+        padding-left: 38px;
+    }
+    
+    #product-price {
+        padding-left: 38px;
     }
 }
 
